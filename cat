@@ -47,11 +47,11 @@ install_env_and_full_node() {
         tracker:latest
     echo '{
       "network": "fractal-mainnet",
-      "tracker": "157.173.109.25:3000",
+      "tracker": "http://127.0.0.1:3000",
       "dataDir": ".",
-      "maxFeeRate": 3000,
+      "maxFeeRate": 30,
       "rpc": {
-          "url": "157.173.109.25:8332",
+          "url": "http://127.0.0.1:8332",
           "username": "bitcoin",
           "password": "opcatAwesome"
       }
